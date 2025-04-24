@@ -22,3 +22,15 @@ button {
   font-size: 1.5rem;
   color: darkred;
 }
+select {
+  font-size: 1rem;
+  padding: 0.4rem;
+  margin-top: 1rem;
+}
+.rating span {
+  margin: 0 5px;
+  transition: transform 0.2s;
+}
+.rating span:hover {
+  transform: scale(1.2);
+}
